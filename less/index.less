@@ -1,1 +1,30 @@
 // Follow the order in the readme
+
+@import "variables";
+@import "mixins";
+@import "reset";
+@import "global";
+@import "navigation";
+@import "footer";
+@import "home-page";
+
+
+.container {
+
+    .destination {
+
+        .btn {
+            .button-mixin(
+                15px, 
+                teal, 
+                85%, 
+                18%, 
+                20px, 
+                white, 
+                center, 
+                3% 0 3%,
+                5%
+            );
+        }
+    }
+}
