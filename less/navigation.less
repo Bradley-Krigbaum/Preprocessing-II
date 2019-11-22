@@ -1,24 +1,35 @@
 // Navigation Styles here
 
 .navibar {
+    display: flex;
+    width: 100%;
     margin: 0 auto;
-    width: 47.5%;
-    padding: 1% 0 1%;
+    justify-content: space-around;
+    align-content: center;
+    border-bottom: 2px dashed gray;
 
     nav {
         display: flex;
-        justify-content: space-between;
-        margin: 5% 0 2%;
+        justify-content: space-around;
+        margin: 3% 18% 2%;
+        width: 100%;
+
+        h1 {
+            width: 150px;
+        }
 
         ul {
-            font-size: 16px;
+            font-size: 18px;
             color: black;
-            justify-content: space-between;
-            
+            align-self: center;
+            width: 315px;
+            margin: 0 5% 0;
         }
 
         a {
             text-decoration: none;
+            margin: 0 3% 0;
+            color: #333;
         }
     }
 }
